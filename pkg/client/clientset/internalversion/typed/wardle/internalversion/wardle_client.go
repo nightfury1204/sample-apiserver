@@ -20,7 +20,7 @@ package internalversion
 
 import (
 	rest "k8s.io/client-go/rest"
-	"k8s.io/sample-apiserver/pkg/client/clientset/internalversion/scheme"
+	"github.com/nightfury1204/sample-apiserver/pkg/client/clientset/internalversion/scheme"
 )
 
 type WardleInterface interface {

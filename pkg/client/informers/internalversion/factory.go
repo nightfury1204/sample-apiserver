@@ -27,9 +27,9 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
-	internalversion "k8s.io/sample-apiserver/pkg/client/clientset/internalversion"
-	internalinterfaces "k8s.io/sample-apiserver/pkg/client/informers/internalversion/internalinterfaces"
-	wardle "k8s.io/sample-apiserver/pkg/client/informers/internalversion/wardle"
+	internalversion "github.com/nightfury1204/sample-apiserver/pkg/client/clientset/internalversion"
+	internalinterfaces "github.com/nightfury1204/sample-apiserver/pkg/client/informers/internalversion/internalinterfaces"
+	wardle "github.com/nightfury1204/sample-apiserver/pkg/client/informers/internalversion/wardle"
 )
 
 type sharedInformerFactory struct {

@@ -27,12 +27,12 @@ import (
 	"k8s.io/apiserver/pkg/registry/rest"
 	genericapiserver "k8s.io/apiserver/pkg/server"
 
-	"k8s.io/sample-apiserver/pkg/apis/wardle"
-	"k8s.io/sample-apiserver/pkg/apis/wardle/install"
-	"k8s.io/sample-apiserver/pkg/apis/wardle/v1alpha1"
-	wardleregistry "k8s.io/sample-apiserver/pkg/registry"
-	fischerstorage "k8s.io/sample-apiserver/pkg/registry/wardle/fischer"
-	flunderstorage "k8s.io/sample-apiserver/pkg/registry/wardle/flunder"
+	"github.com/nightfury1204/sample-apiserver/pkg/apis/wardle"
+	"github.com/nightfury1204/sample-apiserver/pkg/apis/wardle/install"
+	"github.com/nightfury1204/sample-apiserver/pkg/apis/wardle/v1alpha1"
+	wardleregistry "github.com/nightfury1204/sample-apiserver/pkg/registry"
+	fischerstorage "github.com/nightfury1204/sample-apiserver/pkg/registry/wardle/fischer"
+	flunderstorage "github.com/nightfury1204/sample-apiserver/pkg/registry/wardle/flunder"
 )
 
 var (

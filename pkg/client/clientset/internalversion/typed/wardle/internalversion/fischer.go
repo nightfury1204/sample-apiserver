@@ -23,8 +23,8 @@ import (
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"
-	wardle "k8s.io/sample-apiserver/pkg/apis/wardle"
-	scheme "k8s.io/sample-apiserver/pkg/client/clientset/internalversion/scheme"
+	wardle "github.com/nightfury1204/sample-apiserver/pkg/apis/wardle"
+	scheme "github.com/nightfury1204/sample-apiserver/pkg/client/clientset/internalversion/scheme"
 )
 
 // FischersGetter has a method to return a FischerInterface.

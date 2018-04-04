@@ -21,8 +21,8 @@ import (
 	"k8s.io/apimachinery/pkg/apimachinery/registered"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/sample-apiserver/pkg/apis/wardle"
-	"k8s.io/sample-apiserver/pkg/apis/wardle/v1alpha1"
+	"github.com/nightfury1204/sample-apiserver/pkg/apis/wardle"
+	"github.com/nightfury1204/sample-apiserver/pkg/apis/wardle/v1alpha1"
 )
 
 // Install registers the API group and adds types to a scheme

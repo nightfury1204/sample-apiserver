@@ -24,9 +24,9 @@ import (
 	"k8s.io/client-go/discovery"
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
-	clientset "k8s.io/sample-apiserver/pkg/client/clientset/versioned"
-	wardlev1alpha1 "k8s.io/sample-apiserver/pkg/client/clientset/versioned/typed/wardle/v1alpha1"
-	fakewardlev1alpha1 "k8s.io/sample-apiserver/pkg/client/clientset/versioned/typed/wardle/v1alpha1/fake"
+	clientset "github.com/nightfury1204/sample-apiserver/pkg/client/clientset/versioned"
+	wardlev1alpha1 "github.com/nightfury1204/sample-apiserver/pkg/client/clientset/versioned/typed/wardle/v1alpha1"
+	fakewardlev1alpha1 "github.com/nightfury1204/sample-apiserver/pkg/client/clientset/versioned/typed/wardle/v1alpha1/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

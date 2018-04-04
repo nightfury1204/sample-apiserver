@@ -24,7 +24,7 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	cache "k8s.io/client-go/tools/cache"
-	internalversion "k8s.io/sample-apiserver/pkg/client/clientset/internalversion"
+	internalversion "github.com/nightfury1204/sample-apiserver/pkg/client/clientset/internalversion"
 )
 
 type NewInformerFunc func(internalversion.Interface, time.Duration) cache.SharedIndexInformer

@@ -27,7 +27,7 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	wardle "k8s.io/sample-apiserver/pkg/apis/wardle/install"
+	wardle "github.com/nightfury1204/sample-apiserver/pkg/apis/wardle/install"
 )
 
 var Scheme = runtime.NewScheme()

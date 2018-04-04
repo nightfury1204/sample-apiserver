@@ -25,10 +25,10 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"
 	cache "k8s.io/client-go/tools/cache"
-	wardle "k8s.io/sample-apiserver/pkg/apis/wardle"
-	clientset_internalversion "k8s.io/sample-apiserver/pkg/client/clientset/internalversion"
-	internalinterfaces "k8s.io/sample-apiserver/pkg/client/informers/internalversion/internalinterfaces"
-	internalversion "k8s.io/sample-apiserver/pkg/client/listers/wardle/internalversion"
+	wardle "github.com/nightfury1204/sample-apiserver/pkg/apis/wardle"
+	clientset_internalversion "github.com/nightfury1204/sample-apiserver/pkg/client/clientset/internalversion"
+	internalinterfaces "github.com/nightfury1204/sample-apiserver/pkg/client/informers/internalversion/internalinterfaces"
+	internalversion "github.com/nightfury1204/sample-apiserver/pkg/client/listers/wardle/internalversion"
 )
 
 // FischerInformer provides access to a shared informer and lister for
